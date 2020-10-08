@@ -237,9 +237,6 @@ function startProcessWin () {
     }
   })
   processWin.loadURL(modalPath)
-  processWin.once('ready-to-show', () => {
-    planVersionCheck()
-  })
 }
 
 function createWelcomeWindow () {
